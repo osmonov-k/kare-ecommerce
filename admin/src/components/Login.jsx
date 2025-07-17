@@ -5,8 +5,8 @@ import { toast } from "react-toastify";
 
 const AdminLogin = ({ setToken }) => {
   const [credentials, setCredentials] = useState({
-    email: "",
-    password: "",
+    email: "admin@gmail.com",
+    password: "qwerty123",
   });
   const [isLoading, setIsLoading] = useState(false);
 

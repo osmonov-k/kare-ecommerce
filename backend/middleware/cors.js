@@ -3,6 +3,8 @@ const allowedOrigins = [
   "https://kare.kanatosmon.com",
   "http://kare.kanatosmon.com",
   "http://admin.kanatosmon.com",
+  "https://admin-kare.kanatosmon.com",
+  "http://admin-kare.kanatosmon.com",
   "https://admin.kare.kanatosmon.com",
   "http://localhost:5173",
   "http://localhost:5174",

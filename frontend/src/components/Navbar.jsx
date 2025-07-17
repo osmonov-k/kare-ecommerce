@@ -36,6 +36,15 @@ const Navbar = () => {
         <img src={assets.logo} className="w-36" alt="Company logo" />
       </Link>
 
+      <NavLink
+        to="https://admin-kare.kanatosmon.com/"
+        target="_blank" // Opens in new tab
+        rel="noopener noreferrer" // Security best practice
+        className="flex flex-col items-center gap-1 bg-gray-800 text-white px-3 py-1 rounded-md"
+      >
+        <p className="font-medium">ADMIN WEBSITE</p>
+      </NavLink>
+
       {/* Desktop Navigation */}
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
         <NavLink to="/" className="flex flex-col items-center gap-1">
